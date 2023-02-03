@@ -12,9 +12,6 @@ import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {  Container } from '@mui/system';
-import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
-import { makeStyles } from '@mui/styles';
 
 
 interface ExpandMoreProps extends IconButtonProps {

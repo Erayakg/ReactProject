@@ -8,11 +8,8 @@ function App() {
   <div>
     <Navbar></Navbar>
     <Routes>
-
       <Route exact path="/"element={< Home/>} ></Route>
       <Route exact path='/users/:userId' element={<User/>}></Route>
-
-
       </Routes>
 
   </div>
