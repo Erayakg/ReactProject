@@ -15,9 +15,8 @@ export default function PostForm(props) {
   
 
   const handleSubmit= ()=>{
-    SavePost();
-    refreshpost();
-    
+    console.log(data)
+    SavePost();    
 
   }
   const handleTitle=(value)=>{
@@ -31,7 +30,7 @@ export default function PostForm(props) {
   const data = { 
         "text": text,
         "title": title,
-        "userId": 52
+        "userId": 1
   };
 
   const SavePost=()=>{
